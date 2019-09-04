@@ -1,7 +1,7 @@
 import {fork} from "redux-saga/effects"
 
-import {helloSaga} from "./Counter/Counter.saga";
+import Products from "./Products/Products.saga";
 
 export default function* root() {
-  yield fork(helloSaga);
+  yield fork(Products);
 }
